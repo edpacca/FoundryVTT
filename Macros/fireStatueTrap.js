@@ -17,7 +17,7 @@ let chatData1 =
 };
 
 ChatMessage.create(chatData1, {});
-
+game.togglePause(true, true);
 new Dialog(
 {
     title: "Trap!",
